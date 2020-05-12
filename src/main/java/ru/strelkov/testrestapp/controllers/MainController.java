@@ -1,13 +1,11 @@
 package ru.strelkov.testrestapp.controllers;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.strelkov.testrestapp.models.Employee;
 import ru.strelkov.testrestapp.services.EmployeeService;
-import ru.strelkov.testrestapp.services.EmployeeServiceImpl;
 
 import javax.validation.Valid;
 import java.util.List;

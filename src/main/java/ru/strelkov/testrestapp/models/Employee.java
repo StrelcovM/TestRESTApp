@@ -1,8 +1,6 @@
 package ru.strelkov.testrestapp.models;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import javax.persistence.*;
 
